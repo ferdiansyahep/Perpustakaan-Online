@@ -1,10 +1,4 @@
-# Dependencies
-node_modules/
-
-# Environment files
-.env
-.env.*
-!.env.example   # biar contoh env tetap ikut ke repo
-
-# Optional (biar bersih)
-.DS_Store
+**/node_modules/
+**/.env
+**/.env.*
+!**/.env.example
