@@ -1,0 +1,23 @@
+# === Dependencies (semua level folder) ===
+**/node_modules/
+
+# === Environment files (semua level folder) ===
+**/.env
+**/.env.* 
+!**/.env.example   # biarkan contoh env tetap ikut ke repo
+
+# === Optional: artefak build umum ===
+**/dist/
+**/build/
+**/.cache/
+**/coverage/
+
+# Kalau FE pakai Next/Vite, tambahkan:
+FE/.next/
+FE/out/
+FE/dist/
+
+# Log
+**/npm-debug.log*
+**/yarn-error.log*
+**/pnpm-debug.log*
