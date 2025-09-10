@@ -1,0 +1,46 @@
+{
+    "books": [
+      {
+        "title": "Sebuah Seni untuk Bersikap Bodo Amat",
+        "author": "Mark Manson",
+        "cover": "./Sebuah-seni-untuk-bersikap-bodoh-amat.jpg",
+        "description": "Panduan hidup anti-baper: fokus pada hal yang benar-benar penting."
+      },
+      {
+        "title": "Atomic Habits",
+        "author": "James Clear",
+        "cover": "./atomic-habits.jpg",
+        "description": "Bangun kebiasaan kecil yang menghasilkan perubahan besar."
+      },
+      {
+        "title": "Filosofi Teras",
+        "author": "Henry Manampiring",
+        "cover": "./Filosofi-Teras.jpeg",
+        "description": "Stoa untuk kehidupan modern: mengelola emosi dan ekspektasi."
+      },
+      {
+        "title": "Deep Work",
+        "author": "Cal Newport",
+        "cover": "./deep-work.jpg",
+        "description": "Bekerja fokus tanpa distraksi agar hasil melebihi jam kerja biasa."
+      },
+      {
+        "title": "clean code",
+        "author": "Robert C. Martin",
+        "cover": "./clean-code.jpg",
+        "description": "Prinsip menulis kode rapi, mudah dipahami, dan mudah dirawat."
+      },
+      {
+        "title": "Bung Karno Penyambung Lidah Rakyat",
+        "author": "Cindy Adams",
+        "cover": "./bung-karno-penyambung-lidah-rakyat-indonesia.jpg",
+        "description": "Buku ini menceritakan kisah hidup Soekarno, dari kelahiran hingga masa-masa akhir kekuasaannya, menyajikan pandangan tentang pemikirannya, perjuangannya, dan hubungannya dengan rakyat."
+      },
+      {
+        "title": "Animal Farm",
+        "author": "George Orwell ",
+        "cover": "./Animal-Farm.webp",
+        "description": "Animal Farm adalah novel alegoris karya George Orwell yang bercerita tentang sekelompok hewan ternak yang memberontak untuk membentuk masyarakat yang setara, namun akhirnya dikuasai oleh rezim diktator yang menindas, sebuah kritik terhadap rezim komunis Uni Soviet di bawah Joseph Stalin."
+      }
+    ]
+  }
