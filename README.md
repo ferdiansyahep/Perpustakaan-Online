@@ -5,39 +5,9 @@ Monorepo aplikasi **Perpustakaan Online** (Full‑Stack) dengan struktur **FE** 
 - **FE**: React + Vite + Tailwind + React Router
 - **BE**: Node.js + Express + MySQL (mysql2 / pool)
 
-> Catatan: `node_modules/` dan semua file `.env` **tidak** masuk repo (diabaikan lewat `.gitignore`). Siapkan **`.env.example`** di `FE/` dan `BE/` untuk dokumentasi variabel lingkungan.
 
 ---
 
-## 📁 Struktur Proyek
-
-```
-perpus/
-├─ FE/                      # Frontend (React + Vite + Tailwind)
-│  ├─ src/
-│  │  ├─ components/
-│  │  ├─ pages/
-│  │  ├─ assets/
-│  │  └─ main.jsx / main.tsx
-│  ├─ index.html
-│  ├─ vite.config.(js|ts)
-│  ├─ package.json
-│  └─ .env.example         # contoh variabel env FE (tanpa nilai sensitif)
-│
-├─ BE/                      # Backend (Express + MySQL)
-│  ├─ src/
-│  │  ├─ app.js / server.js
-│  │  ├─ routes/
-│  │  ├─ controllers/
-│  │  └─ db.js             # konfigurasi mysql pool
-│  ├─ package.json
-│  └─ .env.example         # contoh variabel env BE (tanpa nilai sensitif)
-│
-├─ .gitignore
-└─ README.md
-```
-
----
 
 ## 🚀 Fitur Singkat
 
@@ -80,7 +50,7 @@ DB_NAME=perpus_db
 CORS_ORIGIN=http://localhost:5173
 ```
 
-> Buat file `.env` dari masing‑masing `.env.example` dan isi nilainya secara lokal. **Jangan commit `.env`** ke Git.
+> Buat file `.env` dari masing‑masing `.env.example` dan isi nilainya secara lokal.
 
 ---
 
